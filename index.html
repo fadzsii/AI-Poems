@@ -7,16 +7,22 @@
     <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
+        <div class="container">
         <header>
         <h1> AI-Poem-Generator </h1>
         </header>
 
         <main> 
             <form>
-                <input type="text" placeholder="Enter the topic of the poem" autofocus required autocomplete="off"/>
-                <input type="submit"/>
+                <input type="text" 
+                       placeholder="Enter the topic of the poem" 
+                       autofocus 
+                       required 
+                       autocomplete="off"
+                       class="instructions"/>
+                <input type="submit" class="submit-button"/>
             </form>
-            <div> </div>
+            <div class="poem"> </div>
 
         </main>
 
@@ -31,5 +37,6 @@
             <a href="https://app.netlify.com/teams/nikolett-szabo2017/overview" target="_blank">hosted on Netlify</a>
         </footer>
         <script src="src/index.js"></script>
+        </div>   
     </body>
 </html>
