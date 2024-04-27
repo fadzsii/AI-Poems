@@ -1,16 +1,16 @@
 body {
-    background-color: bisque;
+    background-color: rgb(254, 164, 185);
     font-family: 'Times New Roman', Times, serif;
 }
 
 a {
-    color: violet;
+    color: rgb(0, 10, 11);
 }
 
 .container {
     margin: 120px auto;
     max-width: 600px;
-    background-color: aquamarine;
+    background-color: rgb(249, 209, 232);
 }
 
 h1 {
@@ -31,24 +31,24 @@ main{
 
 form {
     padding: 30px;
-    background-color: azure;
+    background-color: rgb(249, 209, 232);
     border-radius: 10px;
     display: flex;
 }
 
 .instructions {
     padding: 16px;
-    border: 1px solid rgba(rgb(220, 151, 249), green, blue, alpha);
+    border: 1px solid rgb(249, 209, 232);
     width: 80%;
     font-size: 16px;
     border-radius: 50px;
     line-height: 20px;
-    color: blueviolet;
+    color: rgb(3, 183, 254);
 }
 
 .submit-button {
     margin-left: 10px;
-    background-color: violet;
+    background-color: rgb(250, 78, 175);
     color: white;
     border: none;
     width: 150px;
@@ -59,10 +59,10 @@ form {
 
 .poem {
     font-size: 16px;
-    background-color: azure;
+    background-color: rgb(249, 209, 232);
     padding: 20px;
     line-height: 2;
-    border-left: 3px solid violet;
+    border-left: 3px solid rgb(0, 10, 11);
     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
